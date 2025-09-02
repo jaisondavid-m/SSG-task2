@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>amazon</title>
+    <link rel="icon" type="image/png" href="logo.jpg">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div>
-        <h1>Great indian sales begin tomorrow</h1>
+        <h1 id="heading">Great Indian Festival Sales</h1>
         <h4>Sepcial offers</h4>
         <ul>  <!--it is unordered list-->
             <li>Home</li>
@@ -15,9 +17,9 @@
             <li>About us</li>
         </ul>
         <ol>
-            <li>iPhone 16 at <s>Rs 90k</s> Rs 60k</li><img src="iphone16.jpg" width="150px" height="150px " alt="No img found"><br><button>Buy now</button><br>  <!--used to strict our-->
-            <li>Samsung s25 at <s>Rs 81k</s> Rs 60k</li><img src="sam25.jpg" width="150px" height="150px"><br><button>Buy now</button><br>
-            <li>Oneplus 13 at <s>Rs 70k</s> Rs 40k</li><img src="op13.jpg" width="150px" height="150px"><br><button>Buy now</button><br>
+            <li>iPhone 16 at <s>Rs 90k</s> Rs 60k</li><img src="iphone16.jpg" width="150px" height="150px " alt="No img found"><br><a href="https://www.amazon.in/s?k=amazon+iphone+16&adgrpid=172137495971&gad_source=1&hvadid=714735660631&hvdev=c&hvlocphy=9181803&hvnetw=g&hvqmt=e&hvrand=11789893059135052035&hvtargid=kwd-2193081656778&hydadcr=25227_2856623&mcid=c94c71bed2643af3826fbe53fc31f85c&tag=googinhydr1-21&ref=pd_sl_84rl2ukwjo_e"><button>Buy now</button></a><br><hr>  <!--used to strict our-->
+            <li>Samsung s25 at <s>Rs 81k</s> Rs 60k</li><img src="sams25.jpg" width="150px" height="150px"><br><button>Buy now</button><br><hr>
+            <li>Oneplus 13 at <s>Rs 70k</s> Rs 40k</li><img src="op13.jpg" width="150px" height="150px"><br><button>Buy now</button><br><hr>
         </ol>
         <h3>What is Great Summer festival in Amazon</h3>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>
@@ -29,13 +31,25 @@
            <b>Bold</b> <!--for bold letters--><br>
            <q>knwledge is power</q><br>                                     <!--<abbr title=""></abbr> is used to show abbrevaiton-->
            <b>"knowledge is power"</b>
-           <h5>personal information</h5>
-           <lable>Name</lable>
-           <input type="text" placeholder="Enter your name"><br>
-           <label>DOB</label>
-           <input type="date"><br>
-           <label>Phone no</label>
-           <input type="number">
     </div>
+    <form action="index2.html" ">
+        <hr width="17%" style="margin-left: 0%;">
+        <h3>personal information</h3><hr width="17%" style="margin-left: 0%;">
+        <lable>Name</lable>
+        <input type="text" placeholder="Enter your name" required><br>
+        <label>DOB</label>
+        <input type="date" required><br>
+        <label>Phone no</label>
+        <input type="number" required><br>
+        <input type="radio" name="gender" required>   <!--name="gender" in 3 statement to select any one from 3-->
+        <label>male</label>
+        <input type="radio" name="gender" required>
+        <label>female</label>
+        <input type="radio" name="gender" required>
+        <label>othes</label><br>
+        <input type="checkbox" >Terms and Conditions<br>
+        <input type="submit">
+        <hr width="17%" style="margin-left: 0%;">
+    </form>
 </body>
 </html>
