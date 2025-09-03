@@ -6,3 +6,12 @@
 h4{
     font-size: larger;
 }
+form{
+    border-style: solid;
+    border-width: 15px;
+    border-color: black;
+    border-radius: 15px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-left: 10%;
+}
